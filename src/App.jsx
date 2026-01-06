@@ -83,23 +83,34 @@
 
 
 
-import React,{useState} from 'react'
+// import React,{useState} from 'react'
+
+// const App = () => {
+//   const [num, setNum] = useState(100)
+//   return (
+//     <div>
+//       <h3>Number is {num}</h3>
+//       <button onClick={() => setNum(1000)}>Increment</button>
+//       <button onClick ={() => setNum(50)}>Decrement</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+import React from 'react'
 
 const App = () => {
-  const [num, setNum] = useState(100)
   return (
     <div>
-      <h3>Number is {num}</h3>
-      <button onClick={() => setNum(1000)}>Increment</button>
-      <button onClick ={() => setNum(50)}>Decrement</button>
+      <h1 className=''>Anubhav</h1>
     </div>
   )
 }
 
 export default App
-
-
-
-
 
 
